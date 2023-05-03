@@ -119,7 +119,12 @@
       "id": "tessoku_book_k",
       "label": "A11",
       "title": "Binary Search 1",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_k"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_k",
+      "directory": {
+        "path": "a11",
+        "testdir": "test",
+        "submit": "main.py"
+      }
     },
     {
       "id": "tessoku_book_l",
@@ -509,25 +514,45 @@
       "id": "tessoku_book_bz",
       "label": "B01",
       "title": "A+B Problem",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bz"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bz",
+      "directory": {
+        "path": "b01",
+        "testdir": "test",
+        "submit": "main.py"
+      }
     },
     {
       "id": "tessoku_book_ca",
       "label": "B02",
       "title": "Divisor Check",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ca"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ca",
+      "directory": {
+        "path": "b02",
+        "testdir": "test",
+        "submit": "main.py"
+      }
     },
     {
       "id": "tessoku_book_cb",
       "label": "B03",
       "title": "Supermarket 1",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cb"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cb",
+      "directory": {
+        "path": "b03",
+        "testdir": "test",
+        "submit": "main.py"
+      }
     },
     {
       "id": "tessoku_book_cc",
       "label": "B04",
       "title": "Binary Representation 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cc"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cc",
+      "directory": {
+        "path": "b04",
+        "testdir": "test",
+        "submit": "main.py"
+      }
     },
     {
       "id": "tessoku_book_ce",

@@ -8,7 +8,13 @@
 acc new <contest_id>
 ~~~
 
-- テストケース
+- 問題の追加
+
+~~~
+acc add
+~~~
+
+- テスト
 
 ~~~
 oj t -c "python3 main.py"
