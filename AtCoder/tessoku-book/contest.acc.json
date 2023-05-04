@@ -558,25 +558,45 @@
       "id": "tessoku_book_ce",
       "label": "B06",
       "title": "Lottery",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ce"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ce",
+      "directory": {
+        "path": "b06",
+        "testdir": "test",
+        "submit": "main.py"
+      }
     },
     {
       "id": "math_and_algorithm_al",
       "label": "B07",
       "title": "Convenience Store 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_al"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_al",
+      "directory": {
+        "path": "b07",
+        "testdir": "test",
+        "submit": "main.py"
+      }
     },
     {
       "id": "tessoku_book_cg",
       "label": "B08",
       "title": "Counting Points",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cg"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cg",
+      "directory": {
+        "path": "b08",
+        "testdir": "test",
+        "submit": "main.py"
+      }
     },
     {
       "id": "tessoku_book_ch",
       "label": "B09",
       "title": "Papers",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ch"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ch",
+      "directory": {
+        "path": "b09",
+        "testdir": "test",
+        "submit": "main.py"
+      }
     },
     {
       "id": "tessoku_book_cj",

@@ -1,8 +1,7 @@
 import sys
 
 def main(lines):
-    A, B = lines[0]
-    print(A + B)
+    print(lines)
         
 if __name__ == '__main__':
     lines = []
