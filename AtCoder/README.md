@@ -2,6 +2,20 @@
 
 ## atcoder-cli
 
+- インストール
+
+~~~
+pip install online-judge-tools
+npm install -g atcoder-cli
+~~~
+
+- ログイン
+
+~~~
+oj login https://atcoder.jp/
+acc login
+~~~
+
 - ディレクトリの作成
   
 ~~~
