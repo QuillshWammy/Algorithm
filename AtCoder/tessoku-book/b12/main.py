@@ -1,19 +1,25 @@
 import sys
 
+def f(x):
+    return x ** 3 + x
+
 def main(lines):
     N = lines[0][0]
     
-    srt = 0
-    end = N
-    
-    while srt <= end:
-        mid = (srt+end)//2
-        res = mid ** 3 + mid
-        if res >= N:
-            srt = mid+1
+    left = 0.0
+    right = 100.0
+
+    for i in range(20):
+        mid = (left + right) / 2
+        val = f(mid)
+
+        if val > N:
+            right = mid
         else:
-            end = mid-1
-        
+            left = mid
+    
+    print(mid)
+    
 if __name__ == '__main__':
     lines = []
     for l in sys.stdin:

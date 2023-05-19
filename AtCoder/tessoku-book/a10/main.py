@@ -1,6 +1,7 @@
 import sys
 
 def main(lines):
+    
     N = lines[0][0]
     capa_lst = lines[1]
     D = lines[2][0]
