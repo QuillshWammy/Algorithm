@@ -1,20 +1,24 @@
-import sys
-
-def main(lines):
-    N, K = lines[0]
-    A_lst = lines[1]
-    A_lst.sort()
-    
-    srt = 0
-    end = K
-    
-    ans = 0
-    for i in range(N):
-        ans += end // A_lst[i]
-    print(ans)
-        
-if __name__ == '__main__':
-    lines = []
-    for l in sys.stdin:
-        lines.append(list(map(int, l.split())))
-    main(lines)
+n,x=map(int,input().split())
+a=list(map(int,input().split()))
+ 
+def ryou(ti,a,n):
+  p=0
+  for i in range(n):
+    k=ti//a[i]
+    p+=k
+  return p
+ 
+l=1
+r=10**9
+while True:
+  mid=(l+r)//2
+  if mid==l:
+    rr=r
+    break
+  kk=ryou(mid,a,n)
+  #print(l,mid,r,kk)
+  if kk>=x:
+    r=mid
+  else:
+    l=mid
+print(rr)
