@@ -1,27 +1,25 @@
 import sys
 
-def check(mid, A, K):
-    if A[mid-1] + A[mid] >= K:
-        return True
-    return False
-
 def main(lines):
     N, K = lines[0]
     A = lines[1]
 
-    left = 1
-    right = N
+    R = [ None ] * N
 
-    while left < right:
-        mid = (left + right) // 2
-        ans = check(mid, A, K)
-
-        if ans:
-            left = mid + 1
+    for i in range(0, N-1):
+        if i == 0:
+            R[i] = 0
         else:
-            right = mid - 1
-    
-    print(left)
+            R[i] = R[i-1]
+            
+        while R[i] < N-1 and A[R[i]+1]-A[i] <= K:
+            R[i] += 1
+        
+        
+    ans = 0
+    for i in range(0, N-1):
+        ans += (R[i]-i)
+    print(ans)
         
 if __name__ == '__main__':
     lines = []
